@@ -1,0 +1,45 @@
+nav>ul>li{
+    display: inline-block;
+    position: relative;
+}
+nav>ul>li>a{
+    display: block;
+}
+nav>ul{
+  
+    list-style: none;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: large;
+    
+    
+    line-height: 40px;
+}
+nav>ul>li>a:hover{
+    color: yellow;
+}
+nav ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    background-color: #f1e9e9;
+}
+nav ul ul a{
+    line-height: 30px;
+    color: black;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: large;
+    padding: 0 10px;
+}
+nav>ul>li:hover>ul{
+    display: block;
+}
+nav ul ul a:hover{
+    background-color: black;
+    color: white;
+}
